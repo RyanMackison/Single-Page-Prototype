@@ -1,0 +1,78 @@
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header {
+    background-image: linear-gradient(to right, white, white, white, black, black);
+    text-align: center;
+    padding: 0.01px;
+    position: relative;
+    margin: 0;
+}
+#gradient-text {
+    background: linear-gradient(to right, black, white);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    margin: 0 15px;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+ul li a {
+    display: block;
+    text-decoration: none;
+}
+nav {
+    background-color: black;
+    padding: 10px 0;
+    width: auto;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+    border: 2px solid rgba(255, 255, 255, 0.736);
+}
+.logo {
+    position: relative;
+    float: left;
+}
+main, footer {
+    margin-left: 10px;
+}
+main {
+    height: 30em;
+    width: 60%;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+}
+#image1 {
+    width: 25em;
+    height: 15em;
+    background-image: url("Image1.jpeg");
+    float: right;
+    background-size: cover;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+#image2 {
+    width: 25em;
+    height: 15em;
+    background-image: url("Image2.jpg");
+    float: right;
+    clear: right;
+    background-size: cover;
+    margin-right: 5%;
+    margin-top: 5%;
+}
